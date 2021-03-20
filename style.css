@@ -1,0 +1,44 @@
+body {
+  background-image: url(dev2.png);
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: white;
+}
+
+h5 {
+  color: white;
+}
+#img1 {
+  width: 450px;
+  height: 300px;
+  margin-right: 5vh;
+  margin-left: 5vh;
+}
+#central {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  margin: 0 auto;
+  padding: 30px;
+  box-sizing: border-box;
+  display: block;
+  margin-inline-start: 2px;
+  margin-inline-end: 2px;
+  padding-block-start: 0.35em;
+  padding-inline-start: 0.75em;
+  padding-inline-end: 0.75em;
+  padding-block-end: 0.625em;
+  min-inline-size: min-content;
+}
+
+#select {
+}
